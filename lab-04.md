@@ -2,7 +2,7 @@
 
 In this lab, you will practice solving recurrences, then implement and analyze a couple of recursive algorithms.
 
-Some prompts will require you to edit `main.py` and others will require answers will go in `answers.md`.
+Some prompts will require you to edit `main.py` and others will require answers to go in `answers.md`.
 
 Refer back to the [README.md](README.md) for instruction on git, how to test your code, and how to submit properly to get all the points you've earned.
 
@@ -10,7 +10,7 @@ Refer back to the [README.md](README.md) for instruction on git, how to test you
 
 Solve the following recurrences. Some are solveable using the brick method. For others, you must use the tree method.
 
-1. $T(n) = T(n/2) = \lg n$
+1. $T(n) = T(n/2) + \lg n$
 
 <br>
 <br>
