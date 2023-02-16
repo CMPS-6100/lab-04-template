@@ -12,73 +12,43 @@ Solve the following recurrences. Some are solveable using the brick method. For 
 
 1. $T(n) = T(n/2) + \lg n$
 
-<br>
-<br>
-<br>
-<br>
+
 
 2. $T(n) = 3T(n/2) + n$
 
-<br>
-<br>
-<br>
-<br>
+
 
 3. $T(n) = 2T(n/3) + 1$
 
-<br>
-<br>
-<br>
-<br>
+
 
 4. $T(n) = 4T(n/16) + n^{1/4}$
 
-<br>
-<br>
-<br>
-<br>
+
 
 5. $T(n) = T(n-1) + n$
 
-<br>
-<br>
-<br>
-<br>
+
 
 6. $T(n) = T(\sqrt n) + 1$
 
-<br>
-<br>
-<br>
-<br>
+
 
 7. $T(n) = 3T(n/3) + n$
 
-<br>
-<br>
-<br>
-<br>
+
 
 8. $T(n) = 2T(n/2) + n^2$
 
-<br>
-<br>
-<br>
-<br>
+
 
 9. $T(n) = 4T(n/2) + n^2$
 
-<br>
-<br>
-<br>
-<br>
+
 
 10. $T(n) = 8T(n/2) + n^2$
 
-<br>
-<br>
-<br>
-<br>
+
 
 ## The Master Method (5 pts)
 
