@@ -77,6 +77,8 @@ Solve the following recurrences. Some are solveable using the brick method. For 
 
     Give an algorithm which runs in $O(\lg n)$ work to compute the maximum element of a unimodal array. Implement `unimodal_max(lst)` in `main.py` and ensure that it passes `test_unimodal_max`.
 
+    *Hint: Use the Binary Search Algorithm as inspiration for your Unimodal Max Algorithm.*
+
 13. Prove that your **Unimodal Max** algorithm runs in $O(\lg n)$ work by deriving the recurrence for your algorithm and solving it.
 
 ### Recursive List Sum (5 pts)
