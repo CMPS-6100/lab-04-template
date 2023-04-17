@@ -10,43 +10,48 @@ Refer back to the [README.md](README.md) for instruction on git, how to test you
 
 Solve the following recurrences. Some are solveable using the brick method. For others, you must use the tree method.
 
-1. $T(n) = T(n/2) + \lg n$
+1. $T(n) = 3T(n/2) + n$
 
 
 
-2. $T(n) = 3T(n/2) + n$
+2. $T(n) = 2T(n/3) + 1$
 
 
 
-3. $T(n) = 2T(n/3) + 1$
+3. $T(n) = 4T(n/16) + n^{1/4}$
 
 
 
-4. $T(n) = 4T(n/16) + n^{1/4}$
+4. $T(n) = T(n-1) + n$
 
 
 
-5. $T(n) = T(n-1) + n$
+5. $T(n) = T(\sqrt n) + 1$
 
 
 
-6. $T(n) = T(\sqrt n) + 1$
+6. $T(n) = 3T(n/3) + n$
 
 
 
-7. $T(n) = 3T(n/3) + n$
+7. $T(n) = 2T(n/2) + n^2$
 
 
 
-8. $T(n) = 2T(n/2) + n^2$
+8. $T(n) = 4T(n/2) + n^2$
 
 
 
-9. $T(n) = 4T(n/2) + n^2$
+9. $T(n) = 8T(n/2) + n^2$
 
 
 
-10. $T(n) = 8T(n/2) + n^2$
+10. $T(n) = T(n/2) + \lg n$
+
+    *Hint: For this problem, look at the pattern of the work down the 
+    levels of the tree by picking a particular $n$ for original problem 
+    size and solving for each level's work. Use this to forumlate a 
+    summation.*
 
 
 
@@ -55,7 +60,7 @@ Solve the following recurrences. Some are solveable using the brick method. For 
 11. The Master Method gives an easy formula for solving recurrences of the form: 
     $$T(n) = aT(n/b) + n^c$$
 
-    Its three cases correspond to the relationship between $\log_b a$ and $c$. Derive the asymptotic behavior of $T(n)$ by solving its general recursion tree for each of the three cases. This problem is graded on based on your work shown for your derivations, not on the final results. Show your recursion tree and derivations from it.
+    Its three cases correspond to the relationship between $\log_b a$ and $c$. Derive the asymptotic behavior of $T(n)$ by solving its general recursion tree for each of the three cases. Show your recursion tree and derivations from it.
 
     1. $\log_b a < c$
 
