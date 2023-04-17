@@ -72,7 +72,7 @@ Solve the following recurrences. Some are solveable using the brick method. For 
 
 ### Unimodal Max (5 pts)
 
-12. Suppose you are given a unimodal list of $n$ distinct elements. A unimodal list is one in which the elements are in increasing order up to its maximum element, then in decreasing order after that.
+12. Suppose you are given a unimodal list of $n$ distinct elements. A unimodal list is one in which the elements are in increasing order up to its maximum element, then in decreasing order after that. (3 pts)
 
     For example:
 
@@ -84,12 +84,12 @@ Solve the following recurrences. Some are solveable using the brick method. For 
 
     *Hint: Use the Binary Search Algorithm as inspiration for your Unimodal Max Algorithm.*
 
-13. Prove that your **Unimodal Max** algorithm runs in $O(\lg n)$ work by deriving the recurrence for your algorithm and solving it.
+13. Prove that your **Unimodal Max** algorithm runs in $O(\lg n)$ work by deriving the recurrence for your algorithm and solving it. (2 pts)
 
 ### Recursive List Sum (5 pts)
 
-14. We can easily sum up the values of a list by iterating over them, adding each to a running sum. However, this algorithm has linear work and span. That is $W(n), S(n) \in \Theta(n)$. 
+14. We can easily sum up the values of a list by iterating over them, adding each to a running sum. However, this algorithm has linear work and span. That is $W(n), S(n) \in \Theta(n)$. (3 pts)
 
     Like we did for the Search Problem in our parallelism notes, come up with divide and conquer recursive implementation for **List Sum**. Your algorithm should take in a list and return the sum of all of the elements in that list. Design your algorithm so that we could parallelize the recursive calls. Implement `list_sum_DC(lst)` in `main.py` and ensure that it passes `test_list_sum_DC`.
 
-15. What is the work and span of your **List Sum** algorithm? Derive the work and span recurrences for your algorithm and solve them.
+15. What is the work and span of your **List Sum** algorithm? Derive the work and span recurrences for your algorithm and solve them. (2 pts)

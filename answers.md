@@ -6,7 +6,7 @@
 
 Place all written answers from `lab-04.md` here.
 
-## Asymptotic Analysis Problems
+## Asymptotic Analysis Problems (1 pt ea.)
 
 1. $T(n) = 3T(n/2) + n$
 
@@ -48,7 +48,7 @@ Place all written answers from `lab-04.md` here.
 
 
 
-## The Master Method
+## The Master Method (5 pts)
 
 11. The Master Method gives an easy formula for solving recurrences of the form: 
     $$T(n) = aT(n/b) + n^c$$
@@ -63,10 +63,10 @@ Place all written answers from `lab-04.md` here.
 
 ## Coding Problems Analysis
 
-### Unimodal Max
+### Unimodal Max (3 pts)
 
 13. Prove that your **Unimodal Max** algorithm runs in $O(\lg n)$ work by deriving the recurrence for your algorithm and solving it.
 
-### Recursive List Sum
+### Recursive List Sum (3 pts)
 
 15. What is the work and span of your **List Sum** algorithm? Derive the work and span recurrences for your algorithm and solve them.
