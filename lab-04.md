@@ -48,11 +48,6 @@ Solve the following recurrences. Some are solveable using the brick method. For 
 
 10. $T(n) = T(n/2) + \lg n$
 
-    *Hint: For this problem, look at the pattern of the work down the 
-    levels of the tree by picking a particular $n$ for original problem 
-    size and solving for each level's work. Use this to forumlate a 
-    summation.*
-
 
 
 ## The Master Method (5 pts)
