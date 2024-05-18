@@ -1,6 +1,6 @@
 # CMPS 6100  Lab 04
 
-Last lab, you solved asymptotic analysis problems to understand the relative growth rates between functions. In this lab, we tie it back to algorithms by studying recurrences and then implementing and analyzing a couple of recursive algorithms.
+Last lab, you solved asymptotic analysis problems to understand the relative growth rates between functions. In this lab, we tie it back to algorithms by studying recurrences, implementing and analyzing a recursive algorithm, and then empirically analysing the runtimes of two sorting algorithms.
 
 To complete this lab, follow the instructions in [lab-04.md](lab-04.md) ([PDF version](lab-04.pdf)). Below you'll find important and useful information about submitting your work, using git, and testing your code. 
 
