@@ -6,38 +6,30 @@
 
 Place all written answers from `lab-04.md` here.
 
-## Asymptotic Analysis Problems (1 pt ea.)
+## Recurrences (1 pt ea.)
 
 1. $T(n) = 3T(n/2) + n$
-
 
 
 2. $T(n) = 2T(n/3) + 1$
 
 
-
 3. $T(n) = 4T(n/16) + n^{1/4}$
-
 
 
 4. $T(n) = T(n-1) + n$
 
 
-
 5. $T(n) = 3T(n/3) + n$
-
 
 
 6. $T(n) = 2T(n/2) + n^2$
 
 
-
 7. $T(n) = 4T(n/2) + n^2$
 
 
-
 8. $T(n) = 8T(n/2) + n^2$
-
 
 
 ## Coding Problems Analysis
@@ -50,7 +42,7 @@ Place all written answers from `lab-04.md` here.
 
 14.  Use `print_results` to print a table of selection sort and merge sort's runtimes for each of the sizes: 
 
-    `[100, 200, 300, 400, 500, 600, 700, 800, 900, 1000]`
+        `[100, 200, 300, 400, 500, 600, 700, 800, 900, 1000]`
 
 15. Add plots for the runtimes of Selection Sort and Merge Sort for each of the following lists of sizes:
 

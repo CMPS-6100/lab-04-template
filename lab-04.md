@@ -90,9 +90,9 @@ Once you have the benchmarking code complete, let's see how Selection Sort and M
 
 14.  Use `print_results` to print a table of selection sort and merge sort's runtimes for each of the sizes: 
 
-    `[100, 200, 300, 400, 500, 600, 700, 800, 900, 1000]`
+        `[100, 200, 300, 400, 500, 600, 700, 800, 900, 1000]`
 
-    **Include this table in `answers.md` (5 pts)**
+        **Include this table in `answers.md` (5 pts)**
 
 15. Plot these values. Generate plots containing the runtimes of both Selection Sort and Merge Sort for different ranges of list sizes. A function to generate the plots is not given in this lab. Refer back to the Asymptotic Analysis notes for example code to produce plots. You will need to modofy it to work in this context, then plot the runtimes for the following lists of sizes.
 
